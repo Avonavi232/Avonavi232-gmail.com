@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.chart {
+    width: 60%;
+}
+
+.config {
+    width: 40%;
+}

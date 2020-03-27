@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart должен рендериться без ошибок 1`] = `
+<Fragment>
+  <div
+    className="src_shared_components_costestimate_v__components_chart_styles_css__legend"
+  >
+    <ChartLegend />
+  </div>
+  <div
+    className="src_shared_components_costestimate_v__components_chart_styles_css__chart"
+    style={
+      Object {
+        "height": 186,
+      }
+    }
+  >
+    <canvas />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartLegend должен рендериться без ошибок 1`] = `
+<div
+  className="src_shared_components_costestimate_v__components_chartlegend_styles_css__container"
+>
+  <h4
+    className="src_shared_components_costestimate_v__components_chartlegend_styles_css__title"
+  >
+    Изменение цены
+  </h4>
+  <ul
+    className="src_shared_components_costestimate_v__components_chartlegend_styles_css__legend"
+  >
+    <li
+      className="src_shared_components_costestimate_v__components_chartlegend_styles_css__legend-item"
+      key="offerPrice"
+    >
+      <span
+        className="src_shared_components_costestimate_v__components_chartlegend_styles_css__legend-sign"
+        style={
+          Object {
+            "backgroundColor": "#FF1F34",
+          }
+        }
+      />
+      <span>
+        В объявлении
+      </span>
+    </li>
+    <li
+      className="src_shared_components_costestimate_v__components_chartlegend_styles_css__legend-item"
+      key="estimatedPrice"
+    >
+      <span
+        className="src_shared_components_costestimate_v__components_chartlegend_styles_css__legend-sign"
+        style={
+          Object {
+            "backgroundColor": "#0468FF",
+          }
+        }
+      />
+      <span>
+        Рыночная цена
+      </span>
+    </li>
+  </ul>
+</div>
+`;

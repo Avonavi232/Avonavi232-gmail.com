@@ -2,8 +2,7 @@ import * as React from 'react';
 import {Wrapper} from '../../components/Wrapper';
 import {Header} from '../../components/Header';
 import {Section} from '../../components/Section';
-import {SignUpFormContainer} from '../SignUpForm';
-import {LoginFormContainer} from '../LoginForm';
+import {ChartDemoContainer} from '../Chart/containers/ChartDemoContainer/ChartDemoContainer';
 
 export const App = () => {
     return (
@@ -12,11 +11,7 @@ export const App = () => {
               <Header/>
 
               <Section>
-                <SignUpFormContainer/>
-              </Section>
-
-              <Section>
-                <LoginFormContainer/>
+                <ChartDemoContainer/>
               </Section>
             </Wrapper>
         </div>
